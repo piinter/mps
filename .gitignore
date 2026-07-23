@@ -1,0 +1,15 @@
+ReplicatedStorage/Placares/CopaRoblox
+ReplicatedStorage/Packages/*
+
+ServerScriptService/HoldsStorage.server.lua
+ServerScriptService/Badge.server.lua
+ServerScriptService/Data/DataSettings.server.lua
+ServerScriptService/Character/numeroHandler/*
+ServerScriptService/Admin/*
+
+ServerStorage/Estadios/*
+ServerStorage/ChangeUniform/*
+
+StarterGui/AbrirEmotes.client.lua
+
+Workspace/Lobby/TimePlayedLeaderboard/*
