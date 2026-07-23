@@ -52,7 +52,7 @@ Player.Character["Right Leg"].Touched:connect(function(hit)
 	local force = Player.Character["Torso"].CFrame.lookVector * -23.5
 	local angle = Vector3.new(6e+006,1e+003,6e+006)
 	Kick = false
-	game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+ 
 	TM.ApplyForce(hit, angle, force, "Right Leg")
 end)
 
@@ -64,7 +64,7 @@ Player.Character["Left Leg"].Touched:connect(function(hit)
 	local force = Player.Character["Torso"].CFrame.lookVector * -23.5
 	local angle = Vector3.new(6e+006,1e+003,6e+006)
 	Kick = false
-	game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+ 
 	TM.ApplyForce(hit, angle, force, "Left Leg")
 end)
 

@@ -79,7 +79,7 @@ Player.Character["Head"].Touched:connect(function(hit)
 	local force = Player.Character["Head"].CFrame.lookVector * 90
 	local angle = Vector3.new(math.huge,2e+001,math.huge)
 	Kick = false
-	game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+ 
 	TM.ApplyForce(hit, angle, force, "Head")
 end)
 

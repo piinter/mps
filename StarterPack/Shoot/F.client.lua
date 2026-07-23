@@ -120,19 +120,19 @@ Player.Character["Right Leg"].Touched:connect(function(hit)
 		local force = Player.Character["Torso"].CFrame.lookVector * 0
 		local angle = Vector3.new(10e+006,10e+006,10e+006)
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, angle, force, "Right Leg")
 	elseif T == true then
 		local force = Player.Character["Torso"].CFrame.rightVector * 70 + Player.Character["Torso"].CFrame.upVector * 45
 		local angle = Vector3.new(9000000000,30000,9000000000)
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, angle, force, "Right Leg")
 	elseif R == true then
 		local force = Player.Character["Torso"].CFrame.rightVector * -70 + Player.Character["Torso"].CFrame.upVector * 45
 		local angle = Vector3.new(9000000000,30000,9000000000)
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, angle, force, "Right Leg")
 	end
 end)
@@ -148,19 +148,19 @@ Player.Character["Left Leg"].Touched:connect(function(hit)
 		local force = Player.Character["Torso"].CFrame.lookVector * 0
 		local angle = Vector3.new(10e+006,10e+006,10e+006)
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, angle, force, "Left Leg")
 	elseif T == true then
 		local force = Player.Character["Torso"].CFrame.rightVector * 70 + Player.Character["Torso"].CFrame.upVector * 45
 		local angle = Vector3.new(4e+006,2e+003,4e+006)
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, angle, force, "Left Leg")
 	elseif R == true then
 		local force = Player.Character["Torso"].CFrame.rightVector * -70 + Player.Character["Torso"].CFrame.upVector * 45
 		local angle = Vector3.new(4e+006,2e+003,4e+006)
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, angle, force, "Left Leg")
 	end
 end)

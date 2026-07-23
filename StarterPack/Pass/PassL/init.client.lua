@@ -159,7 +159,7 @@ Player.Character["Right Leg"].Touched:Connect(function(hit)
 			force = ((Player.Character["HumanoidRootPart"].CFrame * CFrame.fromEulerAnglesXYZ(0,-1,0)).lookVector * power)
 		end
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, MaxForce, force, "Right Leg", true)
 
 		hit.Sound:Play()
@@ -190,7 +190,7 @@ Player.Character["Right Leg"].Touched:Connect(function(hit)
 	end
 	local angle = Vector3.new(10e+006, Angle, 10e+006)
 	Kick = false
-	game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+ 
 	TM.ApplyForce(hit, angle, force, "Right Leg", true)
 
 	if power >= 90 then
@@ -250,7 +250,7 @@ Player.Character["Left Leg"].Touched:Connect(function(hit)
 			force = ((Player.Character["HumanoidRootPart"].CFrame * CFrame.fromEulerAnglesXYZ(0,-1,0)).lookVector * power)
 		end
 		Kick = false
-		game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+	 
 		TM.ApplyForce(hit, MaxForce, force, "Left Leg", true)
 
 		hit.Sound:Play()
@@ -281,7 +281,7 @@ Player.Character["Left Leg"].Touched:Connect(function(hit)
 	end
 	local angle = Vector3.new(10e+006, Angle, 10e+006)
 	Kick = false
-	game.ReplicatedStorage:WaitForChild("PassFired"):FireServer()
+ 
 	TM.ApplyForce(hit, angle, force, "Left Leg", true)
 
 	if power >= 90 then
